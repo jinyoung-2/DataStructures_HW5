@@ -146,7 +146,7 @@ void getInfix()
 	{
 		if (((int)infixExp[i] >= 0 && (int)infixExp[i] > 9) || infixExp[i] == '+' || infixExp[i] == '-' || infixExp[i] == '*' || infixExp[i] == '/' || infixExp[i] == '(' || infixExp[i] == ')')
 			continue;
-		else  //입력 불가능한 값 입력시 오류
+		else  //입력 불가능한 값 입력시 강제 종료
 		{
             printf("Impossible Input\n");
             return 0;
